@@ -19,9 +19,9 @@
           prefix: "",
           suffix: "+"
       };
-
-  function countUp() {
-      var e = new CountUp("counter1", 0, 3000, 0, 3, special);
+  
+ function countUp() {
+      var e = new CountUp("counter1", 0, 5000, 0, 3, special);
       e.start();
       var n = new CountUp("counter2", 0, 17, 0, 3, options);
       n.start();

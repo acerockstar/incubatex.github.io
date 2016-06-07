@@ -26,9 +26,7 @@
       var n = new CountUp("counter2", 0, 17, 0, 3, options);
       n.start();
       var o = new CountUp("counter3", 0, 30, 0, 3, options);
-      o.start();
-      var t = new CountUp("counter4", 0, 1, 0, 3, options);
-      t.start()
+      o.start()
   }! function (e) {
       e(function () {
           e(".button-collapse").sideNav(), e(".parallax").parallax(), e(".scrollspy").scrollSpy()
